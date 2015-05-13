@@ -1,0 +1,302 @@
+/*
+Custom CSS styles that override base theme go here.
+*/
+
+.header-block {
+  background-image:none;
+  padding-right:0;
+}
+
+.region-header .block {
+  width:77%;
+  float:left;
+  margin-bottom:0;
+}
+
+.region-header .block-inner {
+  margin-right:0;
+}
+
+.region-header .mobile {
+  display:none;
+}
+
+.custom-course-header {
+  color: #544e49;
+  margin-bottom: 6px;
+  font-size: 25px;
+  line-height: 1.62em; 
+  font-weight:bold; 
+}
+
+.custom-course-date {
+  font-size: 19px;
+  line-height: 26px;  
+  color: #544e49;
+}
+
+.header-block .course-venue-date,
+.header-block .course-city-state {
+  display:none;
+}
+
+.course-city-state {
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+.region-header .custom-header-logos {
+  float:right;
+  width:22%;
+}
+
+.region-header .custom-header-logos p {
+  margin-bottom:0;
+}
+
+/* custom sidebar */
+.sidebar .custom-sidebar-red h2 {
+  background:#830808;
+}
+
+
+.sidebar .custom-sidebar-red h2.red-white {
+  background:#FFF;
+  color:#830808;
+  padding:0;
+}
+
+.sidebar .custom-sidebar-image {
+  margin-bottom:0;
+}
+
+h1.custom-title {
+  margin-top:0;
+  font-size:18px;
+  font-family:Arial, sans-serif;
+}
+
+h1.custom-title .pre-fix {
+}
+
+h1.custom-title .course-name {
+  color:#830808;
+  font-size:23px;
+}
+
+.nav ul.menu li.schedule {
+  position:relative;
+}
+
+.nav ul.menu li.schedule ul.menu {
+  width:100%;
+  position:absolute;
+  top:40px;
+  display:none;
+}
+
+.nav ul.menu li.schedule:hover ul.menu {
+  display:block;
+  z-index:900;
+}
+
+.nav ul.menu li.schedule ul.menu li {
+  float:none;
+  display:block;
+  width:100%;
+  margin:0;
+}
+
+.nav ul.menu li.schedule ul.menu li a {
+  white-space:normal;
+  text-align: left;
+  line-height: 17px;
+  padding: 10px;
+}
+
+#breadcrumb {
+  display:none;
+}
+
+.section-schedule h1,
+.custom-schedule-header {
+  margin:0;
+}
+
+h1.red-white {
+  color:#FFF;
+  background:#830808;
+  padding:10px;
+  font-family:Arial, sans-serif;
+  margin-bottom:15px;
+}
+
+h1.red-white span {
+  display:block;
+}
+
+h1.red-white .prefix-rw {
+  font-size:18px;
+  font-style:italic;
+  line-height:20px;
+}
+
+h1.red-white .schedule-suffix-rw {
+  font-size:20px;
+  line-height: 20px;
+  padding-top: 4px;
+}
+
+strong .red-white,
+ul.quicktabs-tabs.quicktabs-style-basic li.active a {
+  color:#830808;
+}
+
+ul.quicktabs-tabs.quicktabs-style-basic li {
+  padding:10px 20px;
+  border:1px solid #CCC;
+  border-bottom:none;
+  background:#efefef;
+}
+
+ul.quicktabs-tabs.quicktabs-style-basic li:hover {
+  background:#FFF;
+}
+
+ul.quicktabs-tabs.quicktabs-style-basic li a {
+  color:#555;
+}
+
+/*
+ * ul.quicktabs-tabs.quicktabs-style-basic li.active,
+ul.quicktabs-tabs.quicktabs-style-basic {
+  border:none;
+}*/
+
+ul.quicktabs-tabs.quicktabs-style-basic {
+  height:27px;
+}
+
+.sidebar .earlybird.earlybird-register {
+  padding: 5px 17px;
+  background:#544E49;
+}
+
+.menu li,
+#main-content {
+  background:#dce5f2;
+}
+
+.nav ul.menu li.registration-information a {
+  background:#85a4d2;  
+}
+
+.nav ul.menu li.registration-information:hover a  {
+  background:#134fa8;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.sidebar .views-field-field-first-name {
+  font-size:15px;
+  color:#A51C30;
+}
+
+.region-sidebar-first .block-content p a,
+.field-name-body p a {
+color: #0000FF;
+}
+
+.view-sponsors .views-field-title {
+  font-weight:bold;
+  color:#544e49;
+}
+
+.view-sponsors .view-content {
+  padding-left:10px;
+}
+
+.contact-link {
+  display:none;
+}
+
+
+@media(max-width:768px) {
+  .region-header .block {
+    width:60%;
+  }
+
+  .header-block p.course-name a {
+    line-height:22px;
+  }
+
+  .header-block p.course-prefix {
+    font-size:17px;
+  }
+
+  .region-header .custom-header-logos {
+    width:35%;
+  }
+
+  .custom-course-header {
+    font-size:14px;
+    line-height:27px;
+  }
+
+  .custom-course-date {
+    font-size:13px;
+  }
+} /* end of 768 */
+
+@media(max-width:600px) {
+
+  .header-block p.course-name a {
+    font-size:24px;
+    line-height:30px;
+  }
+  .region-header .block {
+    width:100%;
+    float:none;
+  }
+
+  .region-header {
+    position:relative;
+  }
+
+  .region-header .custom-header-logos {
+    position:absolute;
+    bottom:0;
+  }
+  .region-header .custom-header-logos .block-inner {
+    width:240px;
+    margin:0 auto;
+  }
+  
+  .region-header .not-mobile {
+    display:none;
+  }
+
+  .region-header .mobile {
+    display:block;
+  }
+
+  .region-header .custom-header-bottom {
+    margin-bottom:80px;
+  }
+  
+  .header-block {
+    padding-bottom:3%;
+  }
+}
+
+@media(max-width:467px) {
+  .region-sidebar-first,
+  .region-sidebar-second {
+    float:none !important;
+    margin:20px auto !important;
+    width:75% !important;
+  } 
+}
