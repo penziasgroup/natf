@@ -2,13 +2,37 @@
 Custom CSS styles that override base theme go here.
 */
 
+body,
+h2,
+h1,
+h1.page-title,
+h1#page-title,
+.schedule-block .view-grouping-header,
+.view-faculty h3,
+#content h2.block-title {
+  color:#000;
+}
+
+.view-faculty h3 {
+  padding-bottom:5px;
+  display:none;
+}
+
+.sidebar h3, .sidebar h2, .sidebar .earlybird {
+  background:#3c5790;
+}
+
 .header-block {
   background-image:none;
   padding-right:0;
 }
 
+#block-block-3 {
+  padding-top:20px;
+}
+
 .region-header .block {
-  width:77%;
+  width:72%;
   float:left;
   margin-bottom:0;
 }
@@ -19,6 +43,10 @@ Custom CSS styles that override base theme go here.
 
 .region-header .mobile {
   display:none;
+}
+
+.header-block p.course-name a {
+  color:#d91d2c;
 }
 
 .custom-course-header {
@@ -55,6 +83,11 @@ Custom CSS styles that override base theme go here.
   margin-bottom:0;
 }
 
+#block-block-6 {
+  width:100%;
+  max-width:300px;
+  float:right;
+}
 /* custom sidebar */
 .sidebar .custom-sidebar-red h2 {
   background:#830808;
@@ -183,17 +216,33 @@ ul.quicktabs-tabs.quicktabs-style-basic {
   background:#544E49;
 }
 
-.menu li,
+.menu li {
+  background:#314781;
+}
+
 #main-content {
-  background:#dce5f2;
+  background:#efefef;
+}
+
+.nav ul.menu li.active-trail {
+  background:#1f2a69;
 }
 
 .nav ul.menu li.registration-information a {
-  background:#85a4d2;  
+  background:#d91d2c;  
 }
 
-.nav ul.menu li.registration-information:hover a  {
-  background:#134fa8;
+.nav ul.menu li.registration-information:hover a,
+.nav ul.menu li.registration-information.active-trail a {
+  background:#b91f25;
+}
+
+.nav li a, .nav ul.menu li a {
+  color:#FFF;
+}
+
+.nav ul.menu li a:hover {
+  background:#3c5790;
 }
 
 h2 {
