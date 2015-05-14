@@ -46,7 +46,7 @@ h1#page-title,
 }
 
 #block-block-3 {
-  padding-top:20px;
+  padding-top:11px;
 }
 
 .region-header .block {
@@ -81,8 +81,7 @@ h1#page-title,
   color: #544e49;
 }
 
-.header-block .course-venue-date,
-.header-block .course-city-state {
+.header-block .course-venue-date {
   display:none;
 }
 
@@ -90,6 +89,7 @@ h1#page-title,
   font-size: 18px;
   line-height: 16px;
   font-weight: normal;
+  padding-top:3px;
 }
 
 .region-header .custom-header-logos {
