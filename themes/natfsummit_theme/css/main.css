@@ -13,9 +13,27 @@ h1#page-title,
   color:#000;
 }
 
+.front .views-field-field-hero-image {
+  width:100%;
+  float:none;
+}
+
+.front .hero-copy {
+  display:none;
+}
+
 .view-faculty h3 {
   padding-bottom:5px;
   display:none;
+}
+
+.region-secondary-content .cycle-pager span {
+  background-color:#3c5790;
+}
+
+.region-secondary-content .cycle-pager span.cycle-pager-active {
+  background-color:#1f2a69;
+  border:1px solid #d91d2c;
 }
 
 .sidebar h3, .sidebar h2, .sidebar .earlybird {
@@ -117,6 +135,7 @@ h1.custom-title .course-name {
   color:#830808;
   font-size:23px;
 }
+
 
 .nav ul.menu li.schedule {
   position:relative;
@@ -251,7 +270,7 @@ h2 {
 
 .sidebar .views-field-field-first-name {
   font-size:15px;
-  color:#A51C30;
+  color:#d91d2c;
 }
 
 .region-sidebar-first .block-content p a,
