@@ -13,6 +13,10 @@ h1#page-title,
   color:#000;
 }
 
+.sidebar .block-content ol {
+  margin-left:10px;
+}
+
 .front .views-field-field-hero-image {
   width:100%;
   float:none;
@@ -174,6 +178,10 @@ h1.custom-title .course-name {
 .section-schedule h1,
 .custom-schedule-header {
   margin:0;
+}
+
+.schedule-block h3 {
+  color:#000;
 }
 
 h1.red-white {
