@@ -330,6 +330,10 @@ color: #0000FF;
   color:#FFF;
 }
 
+.contact-link {
+  display:block;
+}
+
 @media(max-width:768px) {
   .region-header .block {
     width:60%;
