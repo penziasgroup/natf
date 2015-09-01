@@ -334,6 +334,15 @@ color: #0000FF;
   display:block;
 }
 
+.page-registration-information .print-reg {
+  display:none;
+}
+
+.brochure-download a {
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
 @media(max-width:768px) {
   .region-header .block {
     width:60%;
